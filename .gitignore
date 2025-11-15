@@ -1,0 +1,12 @@
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Vercel / Render env files (just in case)
+.vercel
+.render
+
+
