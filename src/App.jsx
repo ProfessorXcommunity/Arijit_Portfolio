@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
-import ResumeDownloadButton from "./components/ResumeDownloadButton";
+import ResumeFloating from "./components/ResumeFloating";
 
 export default function App() {
   return (
@@ -12,7 +12,7 @@ export default function App() {
       <Projects />
       <About />
       <Contact />
-      <ResumeDownloadButton />
+      <ResumeFloating />
 
       {/* ...other sections */}
     </div>

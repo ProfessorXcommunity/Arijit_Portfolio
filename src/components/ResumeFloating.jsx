@@ -24,10 +24,16 @@ export default function ResumeFloating() {
           <a
             href="/resume.pdf"
             download="Arijit_Kumar_Sahu_Resume.pdf"
-            className="p-3 rounded-full 
-                       bg-gradient-to-br from-cyan-500 to-violet-600
-                       shadow-lg shadow-cyan-500/40 
-                       hover:scale-110 transition-transform text-black"
+            className="
+        inline-flex items-center justify-center
+        w-14 h-14
+        rounded-full
+        bg-gradient-to-br from-cyan-400 to-purple-600
+        shadow-lg shadow-cyan-500/40
+        hover:scale-110 transition-transform
+        text-black
+        whitespace-nowrap
+      "
           >
             <Download className="w-6 h-6" />
           </a>
